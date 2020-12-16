@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Starbucks</title>
     <link rel="stylesheet" href="style.css" />
+    
+    <script type="text/javascript">
+      function changeCircleColor(lol) {
+        const c = document.querySelector("#circle");
+        c.style.background = lol;
+      }
+      function imgSlider(anything) {
+        document.querySelector("#starbucks").src = anything;
+      }
+
+      function toggleMenu() {
+        var menuToggle = document.querySelector(".toggle");
+        var navigation = document.querySelector(".navigation");
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+    </script>
   </head>
   <body>
     <section>
@@ -69,22 +86,5 @@
         </li>
       </ul>
     </section>
-
-    <script type="text/javascript">
-      function changeCircleColor(lol) {
-        const c = document.querySelector("#circle");
-        c.style.background = lol;
-      }
-      function imgSlider(anything) {
-        document.querySelector("#starbucks").src = anything;
-      }
-
-      function toggleMenu() {
-        var menuToggle = document.querySelector(".toggle");
-        var navigation = document.querySelector(".navigation");
-        menuToggle.classList.toggle("active");
-        navigation.classList.toggle("active");
-      }
-    </script>
   </body>
 </html>
