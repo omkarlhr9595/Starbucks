@@ -1,2 +1,2 @@
 # Starbucks
-link to [webpage](https://omkarlhr9595.github.io/Starbuks/)
+link to [webpage](https://omkarlhr9595.github.io/Starbucks/)
